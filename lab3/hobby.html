@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Мои Хобби</title>
+    <style>
+        body {
+            background-color: #b1dbd9; /* Цвет фона */
+            font-family: Arial, sans-serif; /* Шрифт */
+            color: #070c11;
+            margin: 0;
+            padding: 0;
+        }
+        /* Стили для заголовка */
+        header {
+            background-color: #9ea8e0; /* Цвет фона заголовка */
+            color: rgb(47, 49, 128);
+            padding: 20px;
+            text-align: center;
+            background-image: url('hobby.jpg');
+        }
+        /* Стили для навигационного меню */
+        nav ul {
+            list-style-type: none; /* Убираем маркеры списка */
+            padding: 0;
+        }
+        nav ul li {
+            display: inline; /* Выводим элементы в строку */
+            margin-right: 15px;
+        }
+        nav a {
+            color: white; /* Цвет ссылок */
+            text-decoration: none; /* Убираем подчеркивание */
+        }
+        /* Псевдоклассы для ссылок */
+        nav a:visited {
+            color: rgb(29, 82, 112); /* Цвет посещенной ссылки */
+        }
+        nav a:hover {
+            color: rgb(29, 192, 221); /* Цвет при наведении */
+        }
+        /* Основные стили для информации */
+        .Info {
+            margin: 20px;
+        }
+        .first-letter {
+            color: rgb(27, 119, 126); /* Цвет первой буквы */
+        }
+        /* Стили для секций с хобби */
+        section {
+            margin: 20px;
+        }
+        ul {
+            list-style-type: none; /* Убираем маркеры списка */
+        }
+        li {
+            margin-bottom: 30px; /* Отступ между хобби */
+        }
+        img {
+            max-width: 100%; /* Адаптивное изображение */
+            height: auto;
+            margin-top: 10px;
+        }
+        /* Стили для нижнего колонтитула */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            border: 2px solid rgb(27, 119, 126);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>МОИ ХОББИ</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О себе</a></li>
+                <li><a href="#hobbies">Мои хобби</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="Info">
+                <h2>О себе</h2>
+                <img src="me.jpg" alt="Это я" width="200" height="250" align="left">
+                <p>Привет! Меня зовут <b><span class="first-letter">Д</span>аша</b>!</p>
+                <p>Когда-то, 24 февраля 2005 года, в городе Ивацевичи родилась эта девчонка. Она как и все начинала с трехколесного велосипеда, плавала по собачьи, строила произведения архитектуры из песка... Хотела стать известной певицей, когда пела в ванной, танцовщицей, танцуя перед зеркалом, профессиональным визажистом, когда тайком красилась маминой косметикой, и модельером, создавая платья из покрывал, и еще много много кем...</p>
+                <p>Всегда в разные периоды своей жизни я увлекалась разными вещами. Это делат мою жизнь разнообразной, яркой и насыщенной. </p>
+                <p>А подробнее я расскажу только про некоторые из моих, так называемых, хобби, увлечения.</p>
+            </br></br></br></br></br></br></br>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <h2>Мои хобби</h2>
+            <ul>
+                <li>
+                    <h3>Ролики</h3>
+                    <img src="roliki.jpg" alt="Ролики" width="800" height="650">
+                    <p>На мое самое 1 сентября дедушка мне подарил ролики. Не поверите кто меня учил на них кататься. И это тоже был дедушка!</p>
+                    <p>Каждый день после школы я каталась на роликах. И это стало моим, можно сказать, хобби.</p>
+                    <p>Но! Хобби это было пока я не докаталась с горок на них и не упала, сломав руку) Вот такое неожиданное завершение.</p>
+                    <p>И сейчас я могу стать на ролики и кататься, правда это сейчас большая редкость.</p>
+                    <img src="first_roliki.jpg" alt="Мои первые ролики" width="250" height="400">
+                    <figcaption><i>Мои первые ролики</i></figcaption>
+                </li>
+                <li>
+                    <h3>Моделинг</h3>
+                    <img src="modeling.jpg" alt="Моделинг" width="800" height="650">
+                    <p>Буквально с прошлого года я начала заниматься моделлингом. Я прошла курсы в модельной школе.</p>
+                    <img src="certificat.jpg" alt="Сертификат" width="250" height="400">
+                    <figcaption><i>Мой сертификат о прохождении модельных курсов</i></figcaption>
+                    <p>Но я решила, что связать с этим всю мою жизнь, я не хочу (мне же надо доучиться в моей Академии управления при Президенте РБ). Поэтому оставила это на уровне хобби.</p>
+                    <p>Сейчас я периодически хожу моделью на сьемки, сотрудничаю с брендами.</p>
+                    <p>И даже был интересный опыт сотрудничества со всем известным брендом Cheetos)</p>
+                    <img src="cheetos.jpg" alt="Cheetos" width="400" height="450">
+                    <video width="250" height="500" controls><source src="cheetos.mp4"></video>
+                </li>
+                <li>
+                    <h3>Путешествия</h3>
+                    <img src="travel.jfif" alt="Путешествия" width="800" height="650">
+                    <p>Путешествия... ммм ... Самое любимое. Правда за спиной не так много, но все же впереди) Да?)</p>
+                    <p>Путешествия открывают новые горизонты и дают возможность узнать другие культуры.</p>
+                    <p>Мои путешествия, если брать заграницу, начались с Украины. Дальше Польша, Турция.</p>
+                    <img src="turkey1.jpg" alt="Турция" width="400" height="250">
+                    <img src="turkey2.jpg" alt="Турция" width="400" height="250">
+                    <figcaption><i>Турция</i></figcaption>
+                    <p>Ну а вот этим летом проехала тысячи киломметров и доехала до Дагестана. Специфичный выбор? Да! Но это того стоит! Вот там-то и узнала я, что такое настоящие могучие горы.</p>
+                    <img src="elbrus.jpg" alt="Эльбрус" width="400" height="250">
+                    <figcaption><i>Эльбрус</i></figcaption>
+                    <img src="dag.jpg" alt="Дагестан" width="250" height="500">
+                    <figcaption><i>Язык Тролля</i></figcaption>
+                    <video width="250" height="500" controls><source src="kanon.mp4"></video>
+                    <video width="250" height="500" controls><source src="perehod.mp4"></video>
+                    <figcaption><i>Сулакский каньон</i></figcaption>
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <h4>А увидеть больше меня, моей жизни можно в социальных сетях</h4>
+            <ul>
+                <li><a href="https://www.instagram.com/daria_yalovskaya/profilecard/?igsh=bTByd2t5NXJtejd1" target="_blank">Instagram</a></li>
+                <li><a href="https://vk.com/id312896840" target="_blank">VK</a></li>
+            </ul>
+        </footer>
+    </main>
+</body>
+</html>
